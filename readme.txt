@@ -1,5 +1,5 @@
 [hr]
-[center][color=red][size=16pt][b]404 STATUS ON MISSING BOARDS/TOPICS v1.1[/b][/size][/color]
+[center][color=red][size=16pt][b]404 STATUS ON MISSING BOARDS/TOPICS v1.2[/b][/size][/color]
 [url=http://www.simplemachines.org/community/index.php?action=profile;u=253913][b]By Dougiefresh[/b][/url] -> [url=http://custom.simplemachines.org/mods/index.php?mod=3969]Link to Mod[/url]
 [/center]
 [hr]
@@ -19,7 +19,7 @@ There are no admin settings.  To disable it, you must remove this mod.
 o [url=http://www.simplemachines.org/community/index.php?topic=529649.0]Is there a way to disable specific URL[/url]
 
 [color=blue][b][size=12pt][u]Compatibility Notes[/u][/size][/b][/color]
-This mod was tested on SMF 2.0.9, but should work on SMF 2.0 and up.  SMF 1.x is not and will not be supported.
+This mod was tested on SMF 2.0.9, but should work on SMF 2.1 Beta 1, as well as SMF 2.0 and up.  SMF 1.x is not and will not be supported.
 
 [color=blue][b][size=12pt][u]Changelog[/u][/size][/b][/color]
 The changelog has been removed and can be seen at [url=http://www.xptsp.com/board/index.php?topic=2.msg127#msg127]XPtsp.com[/url].
