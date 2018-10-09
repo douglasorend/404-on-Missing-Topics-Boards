@@ -1,3 +1,7 @@
+v2.1 - July 5th, 2017
+o Added support for SMF 2.1 Beta 3.
+o Removed support for SMF 2.1 Beta 1 and 2.
+
 v2.0 - September 20th, 2016
 o Per Arantor's suggestion, error handling has been changed so that:
 => Deleted boards return 410 (Gone)

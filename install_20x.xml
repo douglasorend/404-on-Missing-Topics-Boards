@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+<id>dougiefresh:404status</id>
+<name>HTML 404 Error on Missing Topics/Boards</name>
+<version>2.1</version>
+
+<file name="$sourcedir/Errors.php">
+	<operation>
+		<search position="before"><![CDATA[global $txt, $language, $modSettings, $user_info, $context]]></search>
+		<add><![CDATA[, $smcFunc, $board, $topic]]></add>
+	</operation>
+	<operation>
+		<search position="replace"><![CDATA[$error_message = empty($sprintf) ? $txt[$error] : vsprintf($txt[$error], $sprintf);
+	}]]></search>
+		<add><![CDATA[$error_message = empty($sprintf) ? $txt[$error] : vsprintf($txt[$error], $sprintf);
+	}
+
+	// Include a error code in the header if error message is a certain type:
+	if ($error == 'no_board' || $error == 'wrong_forum')
+	{
+		$request = $smcFunc['db_query']('', '
+			SELECT MAX(id_board) AS max_board, id_board
+			FROM {db_prefix}boards
+			WHERE id_board = {int:board}',
+			array(
+				'board' => (int) $board,
+			)
+		);
+		$row = $smcFunc['db_fetch_assoc']($request);
+		$smcFunc['db_free_result']($request);
+		if ($row['max_board'] > $board)
+			header('HTTP/1.1 404 Not Found');
+		elseif ($row['id_board'] === null)
+			header('HTTP/1.1 410 Gone');
+		else
+			header('HTTP/1.1 403 Forbidden');
+	}
+	elseif ($error == 'not_a_topic' || $error == 'topic_gone')
+	{
+		$request = $smcFunc['db_query']('', '
+			SELECT MAX(id_topic) AS max_topic, id_topic
+			FROM {db_prefix}topics
+			WHERE id_topic = {int:topic}',
+			array(
+				'topic' => (int) $topic,
+			)
+		);
+		$row = $smcFunc['db_fetch_assoc']($request);
+		$smcFunc['db_free_result']($request);
+		if ($row['max_topic'] > $topic)
+			header('HTTP/1.1 404 Not Found');
+		elseif ($row['id_topic'] === null)
+			header('HTTP/1.1 410 Gone');
+		else
+			header('HTTP/1.1 403 Forbidden');
+	}]]></add>
+	</operation>
+</file>
+</modification>

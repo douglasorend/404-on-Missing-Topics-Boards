@@ -3,11 +3,11 @@
 <modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
 <id>dougiefresh:404status</id>
 <name>HTML 404 Error on Missing Topics/Boards</name>
-<version>2.0</version>
+<version>2.1</version>
 
 <file name="$sourcedir/Errors.php">
 	<operation>
-		<search position="before"><![CDATA[global $txt, $language, $modSettings, $user_info, $context]]></search>
+		<search position="before"><![CDATA[global $txt, $language, $user_info, $context]]></search>
 		<add><![CDATA[, $smcFunc, $board, $topic]]></add>
 	</operation>
 	<operation>
