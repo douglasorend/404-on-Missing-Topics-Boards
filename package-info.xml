@@ -3,8 +3,8 @@
 <package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
 	<id>dougiefresh:404status</id>
 	<name>404 on Missing Topics/Boards</name>
-	<version>1.2</version>
 	<type>modification</type>
+	<version>2.0</version>
 
 	<install for="2.0 - 2.0.99, 2.1 Beta 1">
 		<readme type="file" parsebbc="true">readme.txt</readme>

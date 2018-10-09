@@ -1,3 +1,12 @@
+v2.0 - September 20th, 2016
+o Per Arantor's suggestion, error handling has been changed so that:
+=> Deleted boards return 410 (Gone)
+=> Inaccessible boards return 403 (Forbidden)
+=> Board number too high returns 404 (Not Found)
+=> Deleted topics return 410 (Gone)
+=> Inaccessible topics return 403 (Forbidden)
+=> Topic number too high returns 404 (Not Found)
+
 v1.2 - April 6th, 2015
 o Updated for SMF 2.1 Beta 1
 
