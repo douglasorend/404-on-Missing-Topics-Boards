@@ -1,8 +1,11 @@
 [hr]
-[center][color=red][size=16pt][b]404 STATUS ON MISSING BOARDS/TOPICS v2.1[/b][/size][/color]
+[center][color=red][size=16pt][b]404 STATUS ON MISSING BOARDS/TOPICS v2.2[/b][/size][/color]
 [url=http://www.simplemachines.org/community/index.php?action=profile;u=253913][b]By Dougiefresh[/b][/url] -> [url=http://custom.simplemachines.org/mods/index.php?mod=3969]Link to Mod[/url]
 [/center]
 [hr]
+
+[color=blue][b][size=12pt][u]Install Requirements[/u][/size][/b][/color]
+This mod was tested on SMF 2.0.9, but should work on SMF 2.1 Beta 1 thru 3, as well as SMF 2.0 and up. SMF 1.x is not and will not be supported.
 
 [color=blue][b][size=12pt][u]Introduction[/u][/size][/b][/color]
 This mod makes a minor change to the forum to return [url=http://en.wikipedia.org/wiki/List_of_HTTP_status_codes]HTML error codes[/url] when topics and boards are missing or inaccessible.
@@ -28,14 +31,13 @@ There are no admin settings.  To disable it, you must remove this mod.
 [color=blue][b][size=12pt][u]Related Discussion[/u][/size][/b][/color]
 o [url=http://www.simplemachines.org/community/index.php?topic=529649.0]Is there a way to disable specific URL[/url]
 
-[color=blue][b][size=12pt][u]Compatibility Notes[/u][/size][/b][/color]
-This mod was tested on SMF 2.0.9, but should work on SMF 2.1 Beta 1 thru 3, as well as SMF 2.0 and up.  SMF 1.x is not and will not be supported.
-
-[color=blue][b][size=12pt][u]Changelog[/u][/size][/b][/color]
-The changelog has been removed and can be seen at [url=http://www.xptsp.com/board/index.php?topic=2.msg127#msg127]XPtsp.com[/url].
+[color=blue][b][size=12pt][u]Other Information[/u][/size][/b][/color]
+o [url=https://github.com/douglasorend/404_on_Missing_Topics_Boards]This mod at my GitHub repository[/url]
+o [url=http://www.xptsp.com/board/free-modifications/404-on-missing-topics-boards/]This Mod at XPtsp.com[/url]
+o [url=http://custom.simplemachines.org/mods/index.php?mod=3969]This mod on SMF's Customization Site[/url]
 
 [color=blue][b][size=12pt][u]License[/u][/size][/b][/color]
-Copyright (c) 2015, Douglas Orend
+Copyright (c) 2014 - 2018, Douglas Orend
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
