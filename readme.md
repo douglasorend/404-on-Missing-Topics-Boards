@@ -1,4 +1,4 @@
-# 404 STATUS ON MISSING BOARDS/TOPICS v2.2 #
+# 404 STATUS ON MISSING BOARDS/TOPICS v2.3 #
 
 ----------
 
@@ -40,7 +40,7 @@ There are no admin settings.  To disable it, you must remove this mod.
 - [Mod on SMF Customization Site](http://custom.simplemachines.org/mods/index.php?mod=3969)
 
 ## License
-Copyright (c) 2014 - 2018, Douglas Orend
+Copyright (c) 2014 - 2019, Douglas Orend
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:

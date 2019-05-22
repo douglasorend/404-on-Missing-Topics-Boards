@@ -1,5 +1,5 @@
 [hr]
-[center][color=red][size=16pt][b]404 STATUS ON MISSING BOARDS/TOPICS v2.2[/b][/size][/color]
+[center][color=red][size=16pt][b]404 STATUS ON MISSING BOARDS/TOPICS v2.3[/b][/size][/color]
 [url=http://www.simplemachines.org/community/index.php?action=profile;u=253913][b]By Dougiefresh[/b][/url] -> [url=http://custom.simplemachines.org/mods/index.php?mod=3969]Link to Mod[/url]
 [/center]
 [hr]
@@ -37,7 +37,7 @@ o [url=http://www.xptsp.com/board/free-modifications/404-on-missing-topics-board
 o [url=http://custom.simplemachines.org/mods/index.php?mod=3969]This mod on SMF's Customization Site[/url]
 
 [color=blue][b][size=12pt][u]License[/u][/size][/b][/color]
-Copyright (c) 2014 - 2018, Douglas Orend
+Copyright (c) 2014 - 2019, Douglas Orend
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
